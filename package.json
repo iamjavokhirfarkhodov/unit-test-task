@@ -1,0 +1,24 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "unit testing optional task",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "c8 mocha"
+  },
+  "author": "Javokhir Farkhodov",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^10.1.2",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0"
+  }
+}
